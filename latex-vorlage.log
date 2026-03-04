@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 10:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 11:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -969,14 +969,12 @@ Underfull \hbox (badness 2050) in paragraph at lines 9--9
 [3
 
 
-]
-
-[4] (./includes/abkuerzungen.tex
+] (./includes/abkuerzungen.tex
 Package acronym Info: Label `acro:ITIL' newly defined as it shall be overridden
 although it is yet undefined on input line 24.
 )
 
-[5
+[4
 
 
 {/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./latex-vorlage.lof)
@@ -985,7 +983,7 @@ although it is yet undefined on input line 24.
 
 
 
-[6
+[5
 
 ] (./latex-vorlage.lot)
 \tf@lot=\write7
@@ -993,118 +991,30 @@ although it is yet undefined on input line 24.
 
 
 
-[7
+[6
 
 ] (./includes/einleitung.tex
 chapter 1.
 
+LaTeX Warning: Citation 'europaDeployingPseudonymisation' on page 1 undefined on input line 28.
+
+) (./includes/text_mit_zitaten.tex
 
 [1
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
-  [][][]\T1/cmr/m/n/9 siehe et-wa []$\T1/cmtt/m/n/9 http : / / www . ub . uni-[]konstanz . de / serviceangebote / literaturverwaltung / bibtex /
- []
-
-
-
-[2] (./latex-vorlage.tex) (./latex-vorlage.tex
-
-[3]
-Overfull \hbox (8.58406pt too wide) in paragraph at lines 33--35
-[][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (113.10872pt too wide) in paragraph at lines 39--41
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (106.57593pt too wide) in paragraph at lines 44--45
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-
-[4] (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-)
-
-[5]
-
-[6]
-Overfull \hbox (25.71742pt too wide) in paragraph at lines 192--193
-[][]$\T1/cmtt/m/n/10.95 http : / / www . google . de / search ? hl = de & source = hp & q = biblatex + umbruch + url & gbv = 2 & oq = biblatex +
- []
-
-
-Overfull \hbox (9.24231pt too wide) in paragraph at lines 192--193
-\T1/cmtt/m/n/10.95 umbruch + &gs _ l = heirloom-[]hp . 3 . 0 . 0i13i30l2j0i22i10i30 . 1757 . 7464 . 0 . 8525 . 22 . 19 . 0 . 3 . 3 . 0 .
- []
-
-
-Overfull \hbox (54.50928pt too wide) in paragraph at lines 194--199
-\T1/cmtt/m/n/10.95 biblatex + umbruch + url & gbv = 2 & oq = biblatex + umbruch + &gs _ l = heirloom-[]hp . 3 . 0 . 0i13i30l2j0i22i10i30 .
- []
-
-
-Overfull \hbox (26.21742pt too wide) in paragraph at lines 194--199
-\T1/cmtt/m/n/10.95 1757 . 7464 . 0 . 8525 . 22 . 19 . 0 . 3 . 3 . 0 . 204 . 1959 . 13j5j1 . 19 . 0 . msedr . . . 0 . . . 1ac . 1 . 34 . heirloom-[]hp .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 207--211
-
- []
-
-
-
-[7])
-
-[8]
 chapter 2.
 
 
-[9
+[2
 
 ]
 
-[10]
+[3]
 
-[11] (./includes/text_mit_zitaten.tex
-
-[12]
-chapter 3.
-
-
-[13
-
-]
-
-[14]
-
-[15]
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
 []\T1/cmr/m/n/10.95 publisher, edi-ti-on, edi-tor,
  []
@@ -1136,36 +1046,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--126
 
 
 
-[16] (./includes/literatur-datenbank.bib)) (./includes/abbildungen_und_tabellen.tex
+[5] (./includes/literatur-datenbank.bib
 
-[17]
-chapter 4.
-<graphics/dhbw.png, id=523, 710.655pt x 299.1175pt>
+[6]
+
+[7])) (./includes/abbildungen_und_tabellen.tex
+
+[8]
+chapter 3.
+<graphics/dhbw.png, id=398, 710.655pt x 299.1175pt>
 File: graphics/dhbw.png Graphic file (type png)
 <use graphics/dhbw.png>
 Package pdftex.def Info: graphics/dhbw.png  used on input line 10.
 (pdftex.def)             Requested size: 135.19934pt x 56.9055pt.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+)
 File: graphics/dhbw.png Graphic file (type png)
 <use graphics/dhbw.png>
 Package pdftex.def Info: graphics/dhbw.png  used on input line 25.
 (pdftex.def)             Requested size: 56.9055pt x 23.94814pt.
 
 
-[18
+[9
 
  <./graphics/dhbw.png>]
 
-[19] (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+[10] (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 ) (./includes/HelloWorld.java)) (./includes/anhang.tex
 
-[20] (./latex-vorlage.app)
+[11] (./latex-vorlage.app)
 \tf@app=\write8
 \openout8 = `latex-vorlage.app'.
 
 
 
-[21
+[12
 
 ]
 File: graphics/dhbw.png Graphic file (type png)
@@ -1174,53 +1109,53 @@ Package pdftex.def Info: graphics/dhbw.png  used on input line 20.
 (pdftex.def)             Requested size: 409.71692pt x 172.45676pt.
  (./includes/HelloWorld.java)) (./includes/release_notes.tex
 
-[22
+[13
 
 ]
 
-[23]
+[14]
 
-[24]
+[15]
 Overfull \hbox (5.10364pt too wide) in paragraph at lines 129--130
 []\T1/cmr/m/n/10.95 Festlegung des The-mas (für eh-ren-wört-li-che Er-klä-rung) mit Be-fehl [][]\T1/cmtt/m/n/10.95 \themaMeinerArbeit 
  []
 
 
 
-[25]
+[16]
 Overfull \hbox (2.1588pt too wide) in paragraph at lines 149--150
 []\T1/cmr/m/n/10.95 Vorkehrungen für Ein-deu-tig-keit (Hin-zu-fü-gen ab-ge-kürz-ter oder nö-ti-gen-falls aus-ge-schrie-
  []
 
 
 
-[26]
+[17]
 
-[27]
+[18]
 Overfull \hbox (9.20985pt too wide) in paragraph at lines 266--267
 []\T1/cmr/m/n/10.95 Erläuterung von [][]\T1/cmtt/m/n/10.95 \literaturverzeichnis []\T1/cmr/m/n/10.95 und [][]\T1/cmtt/m/n/10.95 \literaturUndGespraechsverzeichnis 
  []
 
 
 
-[28]
+[19]
 
-[29]
+[20]
 
-[30]
+[21]
 
-[31]
+[22]
 
-[32]
+[23]
 Overfull \hbox (3.86964pt too wide) in paragraph at lines 480--481
 []\T1/cmr/m/n/10.95 In der Vor-ver-si-on wur-de die Op-ti-on [][]\T1/cmtt/m/n/10.95 listof=nochaptergap []\T1/cmr/m/n/10.95 im Be-fehl [] []\T1/cmtt/m/n/10.95 \documentclass
  []
 
 
 
-[33])
+[24])
 
-[34]
+[25]
 
 Package biblatex Warning: Field 'extrayear' is deprecated.
 (biblatex)                Please use 'extradate' instead.
@@ -1228,12 +1163,12 @@ Package biblatex Warning: Field 'extrayear' is deprecated.
 
 
 
-[35
+[26
 
 
 ]
 
-[36] (./includes/erklaerung_ki.tex
+[27] (./includes/erklaerung_ki.tex
 Overfull \hbox (1.558pt too wide) in paragraph at lines 132--132
 []\T1/cmr/m/n/10.95 mich ak-tiv über die Leis-tungs-fä-hig-keit und Be-schrän-kun-gen der oben ge-nann-ten KI-Systeme
  []
@@ -1250,40 +1185,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--132
 
 
 
-[37
+[28
 
 
 
 ]) (./template/_dhbw_erklaerung.tex
 
-[38])
+[29])
 
-[39
+[30
 
 ] (./latex-vorlage.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `latex-vorlage.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                latex-vorlage
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'latex-vorlage.run.xml'.
 \openout1 = `latex-vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30377 strings out of 473190
- 592624 string characters out of 5715800
- 1622474 words of memory out of 5000000
- 52869 multiletter control sequences out of 15000+600000
- 589184 words of font info for 107 fonts, out of 8000000 for 9000
+ 30260 strings out of 473190
+ 590898 string characters out of 5715800
+ 1746536 words of memory out of 5000000
+ 52795 multiletter control sequences out of 15000+600000
+ 588754 words of font info for 105 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,18n,127p,10957b,2369s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on latex-vorlage.pdf (46 pages, 716156 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on latex-vorlage.pdf (36 pages, 644941 bytes).
 PDF statistics:
- 1074 PDF objects out of 1200 (max. 8388607)
- 948 compressed objects within 10 object streams
- 316 named destinations out of 1000 (max. 500000)
- 326 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 882 PDF objects out of 1000 (max. 8388607)
+ 770 compressed objects within 8 object streams
+ 278 named destinations out of 1000 (max. 500000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 

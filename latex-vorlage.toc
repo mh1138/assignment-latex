@@ -1,46 +1,23 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {chapter}{Abkürzungsverzeichnis}{V}{chapter*.3}%
-\contentsline {chapter}{Abbildungsverzeichnis}{VI}{section*.5}%
-\contentsline {chapter}{Tabellenverzeichnis}{VII}{section*.6}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{IV}{chapter*.3}%
+\contentsline {chapter}{Abbildungsverzeichnis}{V}{section*.5}%
+\contentsline {chapter}{Tabellenverzeichnis}{VI}{section*.6}%
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.7}%
-\contentsline {section}{\numberline {1.1}Werkzeuge}{1}{section.9}%
-\contentsline {subsection}{\numberline {1.1.1}Compiler}{1}{subsection.10}%
-\contentsline {subsection}{\numberline {1.1.2}Editor}{2}{subsection.11}%
-\contentsline {subsection}{\numberline {1.1.3}Literaturverwaltung}{2}{subsection.14}%
-\contentsline {section}{\numberline {1.2}Verwendung der Vorlage}{2}{section.16}%
-\contentsline {subsection}{\numberline {1.2.1}Zentrale Konfigurationsdatei}{2}{subsection.17}%
-\contentsline {subsection}{\numberline {1.2.2}Hauptdokument}{3}{subsection.19}%
-\contentsline {subsection}{\numberline {1.2.3}Dateistruktur}{4}{subsection.55}%
-\contentsline {section}{\numberline {1.3}Fehlerbehebung}{5}{section.56}%
-\contentsline {subsection}{\numberline {1.3.1}Falsch dargestellte Umlaute}{5}{subsection.57}%
-\contentsline {subsection}{\numberline {1.3.2}Farbig hervorgehobene Links}{6}{subsection.60}%
-\contentsline {subsection}{\numberline {1.3.3}Kopfzeile}{6}{subsection.61}%
-\contentsline {subsection}{\numberline {1.3.4}Kontrolle der Seitenränder}{6}{subsection.62}%
-\contentsline {subsection}{\numberline {1.3.5}biber}{6}{subsection.63}%
-\contentsline {subsection}{\numberline {1.3.6}Zeilenumbruch bei langen URLs}{7}{subsection.64}%
-\contentsline {subsection}{\numberline {1.3.7}Verwendung von MikTeX Portable}{8}{subsection.67}%
-\contentsline {chapter}{\numberline {2}{\"U}berschrift auf Ebene\xspace 0 (chapter)}{9}{chapter.68}%
-\contentsline {section}{\numberline {2.1}{\"U}berschrift auf Ebene\xspace 1 (section)}{9}{section.69}%
-\contentsline {subsection}{\numberline {2.1.1}{\"U}berschrift auf Ebene\xspace 2 (subsection)}{9}{subsection.70}%
-\contentsline {subsubsection}{\nonumberline {\"U}berschrift auf Ebene\xspace 3 (subsubsection)}{9}{subsubsection*.72}%
-\contentsline {paragraph}{\nonumberline {\"U}berschrift auf Ebene\xspace 4 (paragraph)}{10}{paragraph*.74}%
-\contentsline {section}{\numberline {2.2}Listen}{10}{section.75}%
-\contentsline {subsection}{\numberline {2.2.1}Beispiel einer Liste\xspace (itemize)}{10}{subsection.76}%
-\contentsline {subsubsection}{\nonumberline Beispiel einer Liste\xspace (4*itemize)}{10}{subsubsection*.78}%
-\contentsline {subsection}{\numberline {2.2.2}Beispiel einer Liste\xspace (enumerate)}{11}{subsection.79}%
-\contentsline {subsubsection}{\nonumberline Beispiel einer Liste\xspace (4*enumerate)}{11}{subsubsection*.86}%
-\contentsline {subsection}{\numberline {2.2.3}Beispiel einer Liste\xspace (description)}{11}{subsection.95}%
-\contentsline {subsubsection}{\nonumberline Beispiel einer Liste\xspace (4*description)}{12}{subsubsection*.97}%
-\contentsline {chapter}{\numberline {3}Zitieren}{13}{chapter.98}%
-\contentsline {section}{\numberline {3.1}Zitate in den Text einfügen}{13}{section.99}%
-\contentsline {subsection}{\numberline {3.1.1}Beispiele}{13}{subsection.100}%
-\contentsline {subsection}{\numberline {3.1.2}Spezialfälle}{15}{subsection.125}%
-\contentsline {section}{\numberline {3.2}Eintragstypen für die Literatur-Datenbank}{15}{section.131}%
-\contentsline {section}{\numberline {3.3}Zitieren von Sekundärliteratur}{16}{section.137}%
-\contentsline {chapter}{\numberline {4}Beispiele für Abbildungen und Tabellen}{18}{chapter.151}%
-\contentsline {section}{\numberline {4.1}Abbildungen}{18}{section.152}%
-\contentsline {section}{\numberline {4.2}Tabellen}{18}{section.159}%
-\contentsline {section}{\numberline {4.3}Etwas Mathematik}{20}{section.163}%
-\contentsline {section}{\numberline {4.4}Source Code}{20}{section.166}%
-\contentsline {chapter}{Anhang}{21}{chapter*.183}%
-\contentsline {chapter}{Literaturverzeichnis}{35}{section*.234}%
+\contentsline {section}{\numberline {1.1}Ausgangslage und Problemstellung}{1}{section.8}%
+\contentsline {subsection}{\numberline {1.1.1}Situation}{1}{subsection.9}%
+\contentsline {subsection}{\numberline {1.1.2}Task}{1}{subsection.12}%
+\contentsline {subsection}{\numberline {1.1.3}Action}{1}{subsection.14}%
+\contentsline {subsection}{\numberline {1.1.4}Result}{1}{subsection.15}%
+\contentsline {chapter}{\numberline {2}Zitieren}{2}{chapter.16}%
+\contentsline {section}{\numberline {2.1}Zitate in den Text einfügen}{2}{section.17}%
+\contentsline {subsection}{\numberline {2.1.1}Beispiele}{2}{subsection.18}%
+\contentsline {subsection}{\numberline {2.1.2}Spezialfälle}{4}{subsection.43}%
+\contentsline {section}{\numberline {2.2}Eintragstypen für die Literatur-Datenbank}{4}{section.49}%
+\contentsline {section}{\numberline {2.3}Zitieren von Sekundärliteratur}{5}{section.55}%
+\contentsline {chapter}{\numberline {3}Beispiele für Abbildungen und Tabellen}{9}{chapter.122}%
+\contentsline {section}{\numberline {3.1}Abbildungen}{9}{section.123}%
+\contentsline {section}{\numberline {3.2}Tabellen}{9}{section.130}%
+\contentsline {section}{\numberline {3.3}Etwas Mathematik}{11}{section.134}%
+\contentsline {section}{\numberline {3.4}Source Code}{11}{section.137}%
+\contentsline {chapter}{Anhang}{12}{chapter*.154}%
+\contentsline {chapter}{Literaturverzeichnis}{26}{section*.205}%
