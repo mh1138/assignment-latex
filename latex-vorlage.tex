@@ -19,29 +19,29 @@
 \input{template/_dhbw_deckblatt.tex}
 
 %%% Umstellung der Seiten-Nummerierung auf i, ii, iii ... %%%
-\pagenumbering{Roman} 
+\pagenumbering{Roman}
 
 %%% Abstract einbinden (optionale Kurzfassung Ihrer Arbeit) %%%
-%\input{includes/abstract.tex}
+\input{includes/abstract.tex}
 \cleardoublepage
 
 %%% Inhalts-, Abbildungs-, Tabellenverzeichnisse %%%
 % werden einzeilig gesetzt, um Platz zu sparen 
 \begin{spacing}{1}
-\tableofcontents % Inhaltsverzeichnis ausgeben
-\clearpage
-\input{includes/abkuerzungen.tex} % Abkürzungsverzeichnis einbinden
+    \tableofcontents % Inhaltsverzeichnis ausgeben
+    \clearpage
+    \input{includes/abkuerzungen.tex} % Abkürzungsverzeichnis einbinden
 
-\clearpage
-\thispagestyle{kapitelkopfzeile}
-\listoffigures
-\phantomsection
-\addcontentsline{toc}{chapter}{\listfigurename} % Abb.verz. ins Inh.verz. aufnehmen
+    \clearpage
+    \thispagestyle{kapitelkopfzeile}
+    \listoffigures
+    \phantomsection
+    \addcontentsline{toc}{chapter}{\listfigurename} % Abb.verz. ins Inh.verz. aufnehmen
 
-\clearpage
-\listoftables
-\phantomsection
-\addcontentsline{toc}{chapter}{\listtablename} % Tab.verz. ins Inh.verz. aufnehmen
+    \clearpage
+    \listoftables
+    \phantomsection
+    \addcontentsline{toc}{chapter}{\listtablename} % Tab.verz. ins Inh.verz. aufnehmen
 \end{spacing}
 
 %%% Umstellung der Seiten-Nummerierung auf 1, 2, 3 ... %%%
