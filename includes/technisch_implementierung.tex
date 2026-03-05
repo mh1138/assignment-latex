@@ -2,6 +2,26 @@
 
 \section{Verfahren der Anonymisierung}
 
+Vor der detaillierten Betrachtung der einzelnen Verfahren bietet sich ein systematischer Vergleich der beiden zentralen Maskierungstechniken an:
+
+\begin{table}[ht]
+    \centering
+    \caption{Vergleich der Maskierungstechniken}
+    \label{tab:maskierungstechniken}
+    \begin{tabular}{@{}p{3.5cm}p{5.5cm}p{5.5cm}@{}}
+        \toprule
+        \textbf{Kriterium}    & \textbf{Reguläre Ausdrücke (Regex)}                 & \textbf{Named Entity Recognition (NER)}      \\
+        \midrule
+        Erkennungsgenauigkeit & Hoch für strukturierte Daten (IP-Adressen, E-Mails) & Hoch für unstrukturierte, kontextuelle Daten \\
+        Latenz                & Sehr gering (Millisekunden)                         & Höher (abhängig von Modellgröße)             \\
+        Komplexität           & Niedrig (regelbasiert)                              & Hoch (KI-basiert, erfordert Training)        \\
+        Wartbarkeit           & Manuelle Regelpflege erforderlich                   & Kontinuierliches Fine-Tuning nötig           \\
+        Einsatzgebiet         & Formale, standardisierte Datenformate               & Freitext, variable Formulierungen            \\
+        Ressourcenbedarf      & Minimal (CPU-basiert)                               & Hoch (GPU für Transformer-Modelle)           \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
 \subsection{Regex}
 
 \subsection{Named Entity Recognition}

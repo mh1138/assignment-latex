@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber latex-vorlage"] 1772711623.19504 "latex-vorlage.bcf" "latex-vorlage.bbl" "latex-vorlage" 1772713498.36216 0
+["biber latex-vorlage"] 1772711623.19504 "latex-vorlage.bcf" "latex-vorlage.bbl" "latex-vorlage" 1772715209.13031 0
   "includes/literatur-datenbank.bib" 1772619239.18862 15870 1b6ea89c63218c9784c192785f5c7137 ""
-  "latex-vorlage.bcf" 1772713498.16352 111503 23a428f078029463473bad9b577c2636 "pdflatex"
+  "latex-vorlage.bcf" 1772715208.91099 111503 23a428f078029463473bad9b577c2636 "pdflatex"
   (generated)
   "latex-vorlage.bbl"
   "latex-vorlage.blg"
   (rewritten before read)
-["pdflatex"] 1772713495.60813 "/Volumes/main/programming/repos/assignment-latex/latex-vorlage.tex" "latex-vorlage.pdf" "latex-vorlage" 1772713498.36309 0
+["pdflatex"] 1772715206.15219 "/Volumes/main/programming/repos/assignment-latex/latex-vorlage.tex" "latex-vorlage.pdf" "latex-vorlage" 1772715209.13062 0
   "/Volumes/main/programming/repos/assignment-latex/latex-vorlage.tex" 1772713333.45879 2460 85136ce4aadb9a657d79f1969b4af8fd ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -225,13 +225,13 @@
   "includes/grundlagen.tex" 1772713414.75584 2503 b275be97e8bb3ae5fbfb9f49805ad54f ""
   "includes/literatur-datenbank.bib" 1772619239.18862 15870 1b6ea89c63218c9784c192785f5c7137 ""
   "includes/release_notes.tex" 1771859403.06452 22464 b13aca868b500cd9ed79d13956c415c8 ""
-  "includes/technisch_implementierung.tex" 1772713492.17178 192 b31473eabdb780e1e7325da3c2f94715 ""
+  "includes/technisch_implementierung.tex" 1772715202.88369 1543 d979e39d942c5a8b58b186a8e3524bc9 ""
   "includes/text_mit_zitaten.tex" 1771859403.06533 9567 1855f216a04a0dad1569e30ce4c6ae94 ""
-  "latex-vorlage.app" 1772713498.16925 1445 525a155f21cebd517978e687a7c1fdfe "pdflatex"
-  "latex-vorlage.aux" 1772713498.15629 25050 0c53e06451da6ddba9459bb6731574fd "pdflatex"
+  "latex-vorlage.app" 1772715208.91197 1445 523cb106b193841aa298202c4a7f0c8c "pdflatex"
+  "latex-vorlage.aux" 1772715208.90349 25289 982a7034b2c08a5baed34a277566023f "pdflatex"
   "latex-vorlage.bbl" 1772711625.73893 114349 5f6f30c0a8a74e188bd61585708b7562 "biber latex-vorlage"
-  "latex-vorlage.out" 1772713497.19674 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "latex-vorlage.run.xml" 1772713498.16918 2428 2d119b512bd1d4ff1381f82b4891beaf "pdflatex"
+  "latex-vorlage.out" 1772715207.85977 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "latex-vorlage.run.xml" 1772715208.9119 2428 2d119b512bd1d4ff1381f82b4891beaf "pdflatex"
   "latex-vorlage.tex" 1772713333.45879 2460 85136ce4aadb9a657d79f1969b4af8fd ""
   "template/_dhbw_biblatex-config.tex" 1771859403.14875 5675 6458ff6d1ddde7fe67c7cfcb4b877bb6 ""
   "template/_dhbw_deckblatt.tex" 1771859403.14936 2389 d1e60105213bd1a7b30d1fed387a3aac ""
