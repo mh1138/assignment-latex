@@ -28,22 +28,22 @@
 %%% Inhalts-, Abbildungs-, Tabellenverzeichnisse %%%
 % werden einzeilig gesetzt, um Platz zu sparen 
 
-\begin{spacing}{1}
-    \tableofcontents % Inhaltsverzeichnis ausgeben
-    \clearpage
-    \input{includes/abkuerzungen.tex} % Abkürzungsverzeichnis einbinden
+% \begin{spacing}{1}
+%     \tableofcontents % Inhaltsverzeichnis ausgeben
+%     \clearpage
+%     \input{includes/abkuerzungen.tex} % Abkürzungsverzeichnis einbinden
 
-    \clearpage
-    \thispagestyle{kapitelkopfzeile}
-    \listoffigures
-    \phantomsection
-    \addcontentsline{toc}{chapter}{\listfigurename} % Abb.verz. ins Inh.verz. aufnehmen
+%     \clearpage
+%     \thispagestyle{kapitelkopfzeile}
+%     \listoffigures
+%     \phantomsection
+%     \addcontentsline{toc}{chapter}{\listfigurename} % Abb.verz. ins Inh.verz. aufnehmen
 
-    \clearpage
-    \listoftables
-    \phantomsection
-    \addcontentsline{toc}{chapter}{\listtablename} % Tab.verz. ins Inh.verz. aufnehmen
-\end{spacing}
+%     \clearpage
+%     \listoftables
+%     \phantomsection
+%     \addcontentsline{toc}{chapter}{\listtablename} % Tab.verz. ins Inh.verz. aufnehmen
+% \end{spacing}
 
 %%% Umstellung der Seiten-Nummerierung auf 1, 2, 3 ... %%%
 \cleardoublepage
@@ -54,6 +54,8 @@
 % und binden Sie diese hier mit \input{includes/dateiname.tex} ein
 %\input{includes/hauptteil.tex}
 \input{includes/einleitung.tex}
+\input{includes/grundlagen.tex}
+\input{includes/technisch_implementierung.tex}
 \input{includes/text_mit_zitaten.tex}
 \input{includes/abbildungen_und_tabellen.tex}
 \input{includes/anhang.tex}
