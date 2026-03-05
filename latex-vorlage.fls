@@ -247,9 +247,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/scrhack/scrhack.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/scrhack/scrhack.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/setspaceenhanced/setspaceenhanced.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/setspaceenhanced/setspaceenhanced.sty
-INPUT ./latex-vorlage.aux
-INPUT ./latex-vorlage.aux
-INPUT latex-vorlage.aux
 OUTPUT latex-vorlage.aux
 INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -272,12 +269,6 @@ INPUT ./latex-vorlage.bbl
 INPUT ./latex-vorlage.bbl
 INPUT ./latex-vorlage.bbl
 INPUT latex-vorlage.bbl
-INPUT ./latex-vorlage.out
-INPUT ./latex-vorlage.out
-INPUT latex-vorlage.out
-INPUT latex-vorlage.out
-INPUT ./latex-vorlage.out
-INPUT ./latex-vorlage.out
 OUTPUT latex-vorlage.out
 OUTPUT latex-vorlage.pdf
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
@@ -455,7 +446,6 @@ INPUT template/_dhbw_erklaerung.tex
 INPUT latex-vorlage.aux
 INPUT ./latex-vorlage.out
 INPUT ./latex-vorlage.out
-INPUT latex-vorlage.run.xml
 OUTPUT latex-vorlage.run.xml
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb

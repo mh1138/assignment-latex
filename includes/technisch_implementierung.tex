@@ -23,6 +23,25 @@ Vor der detaillierten Betrachtung der einzelnen Verfahren bietet sich ein system
 \end{table}
 
 \subsection{Regex}
+Reguläre Ausdrücke (Regular expressions, Regex) gilt aus verbreitetste Methode zur Identifikation von Mustern in Texten.
+Sie verwendet vordefinierte Zeichenketten, um spezifische Textmuster mit hoher Präzision in einer Zeichenkette zu finden.
+Im Kontext von IT-Infrakstrukturen können so z.B. einfach Ipv4-Adressen, welche 4 durch Punkte getrennte Zahlen sind (xxx.xxx.xxx.xxx), identifiziert werden.
+Diese können dann für die weitere Verarbeitung maskiert werden und durch anonymisierte Werte wie z.B. [IP\_ADDRESS\_1] ersetzt werden.
+
+Der große Vorteil von Regex ist dabei die schnelle und ressourcenschonende Verarbeitung der Daten, da moderne Regex-Engines hochoptimiert
+für String-Verarbeitungsalgorithmen sind. Neben IP-Adressen können auch E-Mail-Adressen (user@domain.tld), Telefonnummern (+xx xxx xxx xxxx), etc. mit Regex maskiert werden.
+Zudem können Datenbank-Verbindungsstrings, welche typerscherweise Schlüsselworte wie "server", "database" oder "password" enthalten, zuverlässig erkannt und nachfolgende
+Informationen über Servernamen, Datenbanknamen oder Passwörter maskiert werden.
+Die Implementierung einer solchen Lösung erfolgt typischerweise durch die Verwendung von Regex-Bibliotheken in der jeweiligen Programmiersprache.
+
+Die Limitation von Regex liegt jedoch darin, dass es sich um eine rein regelbasierte Methode handelt. Das bedeutet, dass Regex nur Muster erkennen kann, die explizit in den Regeln definiert sind.
+So können z.B. Servernamen, welche einer bestimmten Namenskonvention folgen (z.B "prod-db-server-01"), zuverlässig erkannt und maskiert werden.
+Werden die Servernamen jedoch willkürlich gewählt (z.B "der Hauptdatenbankserver im Produktivnetz"), kann Regex diese nicht mehr erkennen und somit auch nicht maskieren,
+da in diesem Fall semantische Zusammenhänge verwendet werden müssen und syntaktische Mustererkennung nicht ausreicht (Liu & Vaidya, 2022).
+Gleichzeitig besteht die Gefahr des Undermasking, dass bei neuen Namenskonventionen oder Datenformaten, diese nicht in die Regex-Regeln aufgenommen werden und somit nicht erkannt werden
+oder die Gefahr des Overmasking, dass zu viele Daten maskiert werden und somit die Antwortqualität des LLM-API sinkt.
+
+
 
 \subsection{Named Entity Recognition}
 
