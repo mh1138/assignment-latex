@@ -1,0 +1,75 @@
+\chapter{Technische Implementierung von Data-Masking}
+
+\section{Verfahren der Anonymisierung}
+
+Vor der detaillierten Betrachtung der einzelnen Verfahren bietet sich ein systematischer Vergleich der beiden zentralen Maskierungstechniken an:
+
+\begin{table}[ht]
+    \centering
+    \footnotesize
+    \caption{Vergleich der Maskierungstechniken}
+    \label{tab:maskierungstechniken}
+    \begin{tabular}{@{} >{\raggedright\arraybackslash}p{3.5cm} >{\raggedright\arraybackslash}p{5.5cm} >{\raggedright\arraybackslash}p{5.5cm} @{}}
+        \toprule
+        \textbf{Kriterium}    & \textbf{\ac{Regex}}                                 & \textbf{\ac{NER}}                            \\
+        \midrule
+        Erkennungsgenauigkeit & Hoch für strukturierte Daten (IP-Adressen, E-Mails) & Hoch für unstrukturierte, kontextuelle Daten \\
+        Latenz                & Sehr gering (Millisekunden)                         & Höher (abhängig von Modellgröße)             \\
+        Komplexität           & Niedrig (regelbasiert)                              & Hoch (KI-basiert, erfordert Training)        \\
+        Wartbarkeit           & Manuelle Regelpflege erforderlich                   & Kontinuierliches Fine-Tuning nötig           \\
+        Einsatzgebiet         & Formale, standardisierte Datenformate               & Freitext, variable Formulierungen            \\
+        Ressourcenbedarf      & Minimal (CPU-basiert)                               & Hoch (GPU für Transformer-Modelle)           \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsection{Reguläre Ausdrücke}
+\ac{Regex} gilt als verbreitetste Methode zur Identifikation von Mustern in Texten.
+Es verwendet vordefinierte Zeichenketten, um spezifische Textmuster mit hoher Präzision in einer Zeichenkette zu finden.
+Im Kontext von IT-Infrastrukturen können so z. B. IP-Adressen identifiziert werden und für die weitere Verarbeitung
+mit anonymisierten Werten maskiert werden.
+
+Der große Vorteil von \ac{Regex} ist dabei die schnelle und ressourcenschonende Verarbeitung der Daten, da moderne Regex-Engines hochoptimiert
+für String-Verarbeitungsalgorithmen sind. Dabei können auch Datenbank-Verbindungsstrings, welche typischerweise Schlüsselwörter wie "server",
+"database" oder "password" enthalten, zuverlässig erkannt und nachfolgende Informationen maskiert werden.
+Die Implementierung einer solchen Lösung erfolgt typischerweise durch die Verwendung von \ac{Regex}-Bibliotheken oder externen Anbietern.
+
+Die Limitation von \ac{Regex} liegt jedoch darin, dass es sich um eine rein regelbasierte Methode handelt.
+So können z. B. Servernamen, welche einer bestimmten Namenskonvention folgen (z. B. "prod-db-server-01"), zuverlässig erkannt und maskiert werden.
+Werden die Servernamen jedoch willkürlich gewählt (z. B. "der Hauptdatenbankserver"), kann \ac{Regex} diese nicht mehr erkennen,
+da in diesem Fall semantische Zusammenhänge verwendet werden müssen und syntaktische Mustererkennung nicht ausreicht (Liu \& Vaidya, 2022).
+Gleichzeitig besteht die Gefahr des Undermaskings: Neue oder unbekannte Namenskonventionen oder Datenformaten
+werden nicht in die \ac{Regex}-Regeln aufgenommen und sommit nicht erkannt,
+bzw. die Gefahr des Overmaskings, dass zu viele Daten maskiert werden und folglich die Antwortqualität der \ac{LLM}-\ac{API} sinkt.
+
+
+\subsection{Named Entity Recognition}
+Im Gegensatz zu \ac{Regex} adressiert \ac{NER} das Problem der Datenmaskierung mithilfe von semantischer Klassifikation.
+Dabei wird ein kontextuelles Sprachverständnis genutzt, um die Bedeutung von Wörtern im umgebenden Text zu erfassen und somit auch
+Entitäten zu erkennen, welche nicht explizit in Regeln definiert sind. \ac{NER} "denkt mit" und ein Servername wird nicht erkannt,
+weil er aussieht wie ein Servername, sondern weil der Satzbau („...verbindet sich mit dem Host Alpha-Prime...“) darauf hindeutet.
+
+Der Nachteil von \ac{NER} zeigt sich jedoch in der Komplexität und den Ressourcen, welche für das Training und den Betrieb benötigt werden.
+So müssen die Modelle aufwendig trainiert und gewartet werden, was zeit- und kostenintensiv sein kann.
+Aus diesem Grund lohnt sich der Einsatz von \ac{NER} nur, wenn eine hohe Genauigkeit bei der Erkennung von Entitäten erforderlich ist und die Ressourcen für das Training und den Betrieb vorhanden sind.
+
+Als Alternative gibt es einen hybriden Kaskaden-Ansatz. Dabei wird die Anfrage zuerst mit minimaler Latenz
+durch ein \ac{Regex}-basiertes Modell geschickt. Alles, was harte Muster enthält, wird erkannt und mit anonymisierten Namenskonventionen ersetzt.
+Der verbleibende Text wird daraufhin an das \ac{NER}-basierte Sicherheitsnetz geschickt, welches verbleibende Informationen erkennt und maskiert.
+Dieses System stellt dabei nicht nur eine hohe Effizienz bereit, sondern auch eine erhöhte Zuverlässigkeit, da sich die beiden Modelle ergänzen.
+Um die anonymisierten Antworten der \ac{LLM}-\ac{API} wieder ersetzen zu können, ist es wichtig, einen gemeinsamen Token-Speicher zu nutzen, welcher
+alle anonymisierten Begriffe speichert.
+
+
+\section{Das Utility-Privacy-Dilemma}
+
+Die zentrale Herausforderung bei einer erfolgreichen Datenmaskierung liegt in der Balance zwischen dem Schutz sensibler Daten (Privacy) und der
+gleichzeitigen Erhaltung der Nützlichkeit der Daten (Utility) für die \ac{LLM}-\ac{API}. In der Wissenschaft
+wird dies oft als Privacy-Utility-Trade-off (Dwork \& Roth, 2014) bezeichnet.
+Maximale Antwortqualität für die \ac{LLM}-\ac{API} bedeutet maximale Datenmenge,
+was wiederum maximale Risiken für die Privatsphäre bedeutet.
+Umgekehrt bedeutet maximale Datenminimierung maximale Ungenauigkeit bei der Antwortqualität der \ac{LLM}-\ac{API}. So kann die \ac{LLM}-\ac{API} zum Beispiel
+nicht mehr die Zusammenhänge der \ac{IT}-Infrastruktur verstehen und so fehlerhafte Antworten zurückgeben.
+Als Lösung wird häufig ein „Label-Preserving Masking“ eingesetzt. Anstatt sensible Daten durch anonymisierte Werte (z. B. [Mask]) zu ersetzen,
+werden diese durch Label (z.B. [IP-ADDRESS1]) ersetzt, welche im Kontext der Anfrage verstanden werden können. So bleibt die logische
+Topologie der \ac{IT}-Infrastruktur erhalten und die Antwortqualität der \ac{LLM}-\ac{API} nicht beeinträchtigt.

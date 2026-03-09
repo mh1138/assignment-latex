@@ -1,0 +1,29 @@
+\chapter{Einleitung}
+
+\section{Ausgangslage und Problemstellung}
+In den letzten Jahren hat der Umgang mit \ac{KI} zu einer fundamentalen Veränderung in der \ac{IT}-Landschaft geführt.
+Gerade \ac{LLM}-Modelle haben als transformative Technologie die Art und Weise, wie wir arbeiten,
+wie wir Informationen beschaffen und wie wir Probleme lösen, revolutioniert.
+Besonders beliebt ist dabei die Integration von bestehenden \ac{LLM}-\acp{API} in eigene Softwarelösungen, da Unternehmen so schnell und kostengünstig
+von den Vorteilen der \ac{KI} profitieren können \footcite{openai2024gpt4technicalreport}.
+So werden bei Bosch z. B. \ac{LLM}-\acp{API} verwendet, um die \ac{IT}-Infrastrukturen von Anwendungen zu analysieren und zu optimieren.
+
+Das Problem ist dabei, dass die Integration von \ac{LLM}-\acp{API} in Softwarelösungen zwar starke Effizienzsteigerungen ermöglicht, gleichzeitig
+aber ein oft übersehenes Risiko mit sich bringt. Das Übertragen von kritischen Unternehmensdaten an Dritte korreliert unmittelbar
+mit unternehmenswirtschaftlichen Erfolgen. Wichtig dabei zu verstehen ist, dass die Verschlüsselung der Anfragen über \ac{TLS} zwar die
+Integrität und Vertraulichkeit der Daten sichert, nicht aber den Zugriff des Anbieters selbst.
+
+\section{Zielsetzung und Aufbau der Arbeit}
+Um dieses Risiko zu minimieren, gilt es als Aufgabe dieser Arbeit, eine unsichtbare Schicht zwischen der Software und der \ac{API} zu schaffen,
+mit der kritische Daten maskiert werden. So kann gewährleistet werden, dass die Daten dem \ac{API}-Provider nicht ungeschützt zugänglich sind.
+
+Die Frage, die diese Arbeit dabei beantworten soll, lautet dabei:
+\begin{equation}
+    \parbox{0.85\textwidth}{\centering \textit{Inwiefern ermöglicht ein hybrider Data-Masking-Ansatz (\ac{Regex} + \ac{NER}) einen effektiven Schutz sensibler \ac{IT}-Infrastrukturdaten bei gleichzeitig hoher Antwortqualität von \ac{LLM}-\acp{API}?}}
+\end{equation}
+Um dieser nachzugehen, werden zunächst die theoretischen Grundlagen der \ac{LLM}-\ac{API}-Kommunikation
+und die damit verbundenen Risiken analysiert.
+Anschließend werden verschiedene Maskierungsansätze untersucht und unter anderem deren Einfluss und Effektivität
+auf die Antwortqualität untersucht.
+Dabei schließt die Arbeit mit einer Bewertung der praktischen Einsetzbarkeit unter Berücksichtigung regulatorischer
+und governance-relevanter Aspekte.

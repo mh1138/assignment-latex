@@ -1,4 +1,4 @@
-%%% LaTeX-Vorlage Version 2.1 %%%
+% LaTeX-Vorlage Version 2.1 ‚
 
 % TODO: individuelle Einstellungen (Name, Titel etc.)
 % -> bitte in Konfigurationsdatei anpassen
@@ -22,28 +22,28 @@
 \pagenumbering{Roman}
 
 %%% Abstract einbinden (optionale Kurzfassung Ihrer Arbeit) %%%
-\input{includes/abstract.tex}
-\cleardoublepage
+% \input{includes/abstract.tex}
+% \cleardoublepage
 
 %%% Inhalts-, Abbildungs-, Tabellenverzeichnisse %%%
 % werden einzeilig gesetzt, um Platz zu sparen 
 
-% \begin{spacing}{1}
-%     \tableofcontents % Inhaltsverzeichnis ausgeben
-%     \clearpage
-%     \input{includes/abkuerzungen.tex} % Abkürzungsverzeichnis einbinden
+\begin{spacing}{1}
+    \tableofcontents % Inhaltsverzeichnis ausgeben
+    \clearpage
+    \input{includes/abkuerzungen.tex} % Abkürzungsverzeichnis einbinden
 
-%     \clearpage
-%     \thispagestyle{kapitelkopfzeile}
-%     \listoffigures
-%     \phantomsection
-%     \addcontentsline{toc}{chapter}{\listfigurename} % Abb.verz. ins Inh.verz. aufnehmen
+    \clearpage
+    \thispagestyle{kapitelkopfzeile}
+    \listoffigures
+    \phantomsection
+    \addcontentsline{toc}{chapter}{\listfigurename} % Abb.verz. ins Inh.verz. aufnehmen
 
-%     \clearpage
-%     \listoftables
-%     \phantomsection
-%     \addcontentsline{toc}{chapter}{\listtablename} % Tab.verz. ins Inh.verz. aufnehmen
-% \end{spacing}
+    \clearpage
+    \listoftables
+    \phantomsection
+    \addcontentsline{toc}{chapter}{\listtablename} % Tab.verz. ins Inh.verz. aufnehmen
+\end{spacing}
 
 %%% Umstellung der Seiten-Nummerierung auf 1, 2, 3 ... %%%
 \cleardoublepage
@@ -53,9 +53,11 @@
 % Empfehlung: strukturieren Sie Ihren Text in einzelnen Dateien 
 % und binden Sie diese hier mit \input{includes/dateiname.tex} ein
 %\input{includes/hauptteil.tex}
-\input{includes/einleitung.tex}
-\input{includes/grundlagen.tex}
-\input{includes/technisch_implementierung.tex}
+\input{includes/01einleitung.tex}
+\input{includes/02grundlagen.tex}
+\input{includes/03technisch_implementierung.tex}
+\input{includes/04praxis.tex}
+\input{includes/05fazit.tex}
 \input{includes/text_mit_zitaten.tex}
 \input{includes/abbildungen_und_tabellen.tex}
 \input{includes/anhang.tex}

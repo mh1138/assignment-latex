@@ -87,7 +87,7 @@
   \usebibmacro{name:andothers}}
       
   
-\DeclareFieldFormat{extrayear}{% = the 'a' in 'Jones 1995a'
+\DeclareFieldFormat{extradate}{% = the 'a' in 'Jones 1995a'
   \iffieldnums{labelyear}
     {\mknumalph{#1}}
     {\mknumalph{#1}}}        
@@ -139,7 +139,7 @@
     {\global\undef\bbx@lasthash
      \usebibmacro{labeltitle}%
      \setunit*{\addspace}}%
-  \textfett{\usebibmacro{date+extrayear}}}
+  \textfett{\usebibmacro{date+extradate}}}
 
 % Sonderfall: Quelle ohne Autor, aber mit Herausgeber
 % Name des Herausgebers wird fett gedruckt
@@ -160,7 +160,7 @@
     {\global\undef\bbx@lasthash
      \usebibmacro{labeltitle}%
      \setunit*{\addspace}}%
-  \textfett{\usebibmacro{date+extrayear}}}
+  \textfett{\usebibmacro{date+extradate}}}
 
 \DefineBibliographyStrings{ngerman}{% Anpassungen für deutsche Sprache
 	nodate = {{o.J.}},

@@ -1,0 +1,15 @@
+\chapter{Fazit und Handlungsempfehlung}
+\section{Zusammenfassung der Ergebnisse}
+Um die Kontrolle über interne Daten zu behalten und gleichzeitig wichtigen
+Compliance-Regeln zu entsprechen, ist eine Datenmaskierung bei der Nutzung externer
+\ac{LLM}-\acp{API} unerlässlich. Nur so kann verhindert werden, dass sensible Daten
+durch die Nutzung externer \ac{LLM}-\acp{API} offengelegt werden. Trotzdem sollte beachtet werden,
+dass eine vollständige Anonymisierung oft schwierig ist und die
+Qualität der Ergebnisse beeinträchtigen kann.
+\section{Handlungsempfehlung für die Praxis}
+Um ein solches Modell in der Praxis umzusetzen, gibt es verschiedene Anbieter, welche
+Open-Source-Lösungen anbieten. Zu nennen sind hierbei insbesondere Microsoft Presidio,
+Skyflow oder Privacera. Dabei kann zum Beispiel ein Stufenmodell eingesetzt werden, welches
+eine von Grund auf strikte Maskierung sukzessiv je nach Anwendungsfall lockert.
+Wichtig dabei sind vor allem regelmäßige Audits der Maskierungs-Logs, um
+Fehlklassifizierungen der Modelle zu finden.
