@@ -1,28 +1,21 @@
 \chapter{Kritische Bewertung und Praxisrelevanz}
+
 \section{Governance-Aspekte: Einbindung in die \ac{IT}-Infrastruktur}
-Wichtig für eine erfolgreiche Einbindung eines Maskierungsalgorithmus ist die Vermeidung von
-sogenannten Schatten-\acp{KI}. Darunter versteht man \ac{LLM}-Systeme, welche nicht von einer
-\ac{IT}-Abteilung bereitgestellt wurden und somit auch keinen Maskierungsalgorithmus verwenden.
-Aus diesem Grund ist es wichtig, interne \ac{LLM}-Systeme bereitzustellen, die nicht nur aktiv
-beworben werden, sondern auch auf dem aktuellen Stand der Technik sind.
-Zudem sollte man abwägen, ob ein lokales \ac{LLM}-Modell (on-premise), zum Beispiel auf eigenen Servern, nicht
-günstiger und effizienter wäre, als ein externes \ac{LLM}-Modell, welches über eine \ac{API} angesprochen wird.
-Dieses Modell würde keinen Maskierungsalgorithmus verwenden, was die Antwortqualität und Latenz
-verbessern würde.
-Zuletzt ist es auch wichtig, dass Mitarbeiter über „Residual Risks“ (Restrisiken) geschult werden, denn kein
-Maskierungsalgorithmus kann die absolute Sicherheit der Daten garantieren. Deshalb ist es wichtig, nicht nur
-die technische Implementierung, sondern auch die organisatorischen Maßnahmen zu prüfen.
+Wichtig für eine erfolgreiche Einbindung eines Maskierungsalgorithmus ist die Vermeidung von sogenannten Schatten-\acp{KI}. Darunter versteht man \ac{LLM}-Systeme, welche nicht von einer \ac{IT}-Abteilung bereitgestellt wurden und somit auch keinen Maskierungsalgorithmus verwenden \footcite{mansner2025shadowai}.
+Da Mitarbeiter bei fehlenden oder unperformanten Systemen oft stattdessen auf nicht geschützte \ac{LLM}-Systeme zurückgreifen, ist es wichtig, interne \ac{LLM}-Systeme bereitzustellen, die nicht nur aktiv beworben werden, sondern auch auf dem aktuellen Stand der Technik sind.
+
+Der hybride Ansatz ist hierbei entscheidend, da er die hohe Präzision von \ac{NER} mit der minimalen Latenz von \ac{Regex} kombiniert. Nur eine performante Lösung, die den Arbeitsfluss nicht durch lange Wartezeiten unterbricht, kann die Akzeptanz der Mitarbeiter sicherstellen und somit den Rückzug in ungeschützte Schatten-KI-Systeme effektiv verhindern \footcite{naseer2025recap}.
+
+Zudem sollte man abwägen, ob ein lokales \ac{LLM}-Modell (on-premise), zum Beispiel auf eigenen Servern, günstiger und effizienter wäre, als ein pseudonymisierendes externes \ac{LLM}-Modell, welches über eine \ac{API} angesprochen wird \footcite{costbenefit2025onprem}. Dieses Modell würde keinen Maskierungsalgorithmus verwenden, was die Antwortqualität und Latenz verbessern würde.
+
+Zuletzt ist es auch wichtig, dass Mitarbeiter über „Residual Risks“ (Restrisiken) geschult werden, denn kein Maskierungsalgorithmus kann die absolute Sicherheit der Daten garantieren \footcite{staab2025sokprivacyparadox}. Deshalb ist es wichtig, nicht nur die technische Implementierung, sondern auch die organisatorischen Maßnahmen zu prüfen.
+
+[Image of cloud vs on-premise LLM infrastructure comparison]
 
 \section{Compliance: \ac{DSGVO} \& Privacy by Design}
-Auch die \ac{DSGVO} nennt explizit die datenschutzfreundliche Voreinstellung und den
-Datenschutz durch Technik (Privacy by Design) als Grundsätze der Datenverarbeitung. In Artikel 25 der
-\ac{DSGVO} heißt es dazu:
+Auch die \ac{DSGVO} nennt explizit die datenschutzfreundliche Voreinstellung und den Datenschutz durch Technik (Privacy by Design) als Grundsätze der Datenverarbeitung. In Artikel 25 der \ac{DSGVO} heißt es dazu:
 \begin{quote}
-    Der Verantwortliche trifft geeignete technische und organisatorische Maßnahmen, um sicherzustellen, dass
-    grundsätzlich nur Datenverarbeitungen vorgenommen werden, die für den jeweiligen Zweck erforderlich sind.
+  Der Verantwortliche trifft geeignete technische und organisatorische Maßnahmen, um sicherzustellen, dass grundsätzlich nur Datenverarbeitungen vorgenommen werden, die für den jeweiligen Zweck erforderlich sind.
 \end{quote}
-Gleichzeitig wird in Artikel 32 der \ac{DSGVO} sogar explizit die Pseudonymisierung und Anonymisierung als
-Maßnahmen genannt, welche zur Erfüllung dieser Pflicht beitragen können.
-Zusätzlich wird in dem neuen EU AI Act die Verwendung von \ac{KI}-Systemen zur Analyse von biometrischen Daten
-oder zur Erkennung von Emotionen stark eingeschränkt, was zeigt, dass die Bedeutung von Datenschutz und
-Datensicherheit in der EU zunimmt.
+Gleichzeitig wird in Artikel 32 der \ac{DSGVO} sogar explizit die Pseudonymisierung als Maßnahme genannt, welche zur Erfüllung dieser Pflicht beitragen können.
+Zusätzlich wird in dem neuen EU AI Act die Verwendung von \ac{KI}-Systemen zur Analyse von biometrischen Daten oder zur Erkennung von Emotionen stark eingeschränkt, was zeigt, dass die Bedeutung von Datenschutz und Datensicherheit in der EU zunimmt \footcite{europeanparliament2025interplayaact}.

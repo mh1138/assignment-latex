@@ -33,11 +33,11 @@
     \clearpage
     \input{includes/abkuerzungen.tex} % Abkürzungsverzeichnis einbinden
 
-    \clearpage
-    \thispagestyle{kapitelkopfzeile}
-    \listoffigures
-    \phantomsection
-    \addcontentsline{toc}{chapter}{\listfigurename} % Abb.verz. ins Inh.verz. aufnehmen
+    % \clearpage
+    % \thispagestyle{kapitelkopfzeile}
+    % \listoffigures
+    % \phantomsection
+    % \addcontentsline{toc}{chapter}{\listfigurename} % Abb.verz. ins Inh.verz. aufnehmen
 
     \clearpage
     \listoftables
@@ -49,6 +49,18 @@
 \cleardoublepage
 \pagenumbering{arabic}
 
+%%% Kapitel ohne Seitenumbruch und kompaktere Überschriften %%%
+\RedeclareSectionCommand[
+  style=section, 
+  indent=0pt,
+  beforeskip=1ex plus .5ex minus .5ex,
+  afterskip=0.5ex plus .1ex
+]{chapter}
+\RedeclareSectionCommands[
+  beforeskip=1ex plus .5ex minus .5ex,
+  afterskip=0.5ex plus .1ex
+]{section,subsection,subsubsection}
+
 %%% Ihr eigentlicher Inhalt %%%
 % Empfehlung: strukturieren Sie Ihren Text in einzelnen Dateien 
 % und binden Sie diese hier mit \input{includes/dateiname.tex} ein
@@ -58,10 +70,10 @@
 \input{includes/03technisch_implementierung.tex}
 \input{includes/04praxis.tex}
 \input{includes/05fazit.tex}
-\input{includes/text_mit_zitaten.tex}
-\input{includes/abbildungen_und_tabellen.tex}
-\input{includes/anhang.tex}
-\input{includes/release_notes.tex}
+%\input{includes/text_mit_zitaten.tex}
+%\input{includes/abbildungen_und_tabellen.tex}
+%\input{includes/anhang.tex}
+%\input{includes/release_notes.tex}
 %%% Ende des eigentlichen Inhalts %%%
 
 

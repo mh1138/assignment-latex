@@ -1,34 +1,21 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {chapter}{Abkürzungsverzeichnis}{II}{chapter*.1}%
-\contentsline {chapter}{Abbildungsverzeichnis}{III}{section*.2}%
-\contentsline {chapter}{Tabellenverzeichnis}{IV}{section*.3}%
-\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.4}%
-\contentsline {section}{\numberline {1.1}Ausgangslage und Problemstellung}{1}{section.5}%
-\contentsline {section}{\numberline {1.2}Zielsetzung und Aufbau der Arbeit}{1}{section.7}%
-\contentsline {chapter}{\numberline {2}Theoretische Grundlagen und Problemanalyse}{2}{chapter.9}%
-\contentsline {section}{\numberline {2.1}Funktionsweise von \ac {LLM}-\acp {API}}{2}{section.10}%
-\contentsline {section}{\numberline {2.2}Spezifische Risiken in der \ac {IT}-Infrastruktur}{2}{section.11}%
-\contentsline {chapter}{\numberline {3}Technische Implementierung von Data-Masking}{3}{chapter.12}%
-\contentsline {section}{\numberline {3.1}Verfahren der Anonymisierung}{3}{section.13}%
-\contentsline {subsection}{\numberline {3.1.1}Reguläre Ausdrücke}{3}{subsection.15}%
-\contentsline {subsection}{\numberline {3.1.2}Named Entity Recognition}{4}{subsection.16}%
-\contentsline {section}{\numberline {3.2}Das Utility-Privacy-Dilemma}{4}{section.17}%
-\contentsline {chapter}{\numberline {4}Kritische Bewertung und Praxisrelevanz}{5}{chapter.18}%
-\contentsline {section}{\numberline {4.1}Governance-Aspekte: Einbindung in die \ac {IT}-Infrastruktur}{5}{section.19}%
-\contentsline {section}{\numberline {4.2}Compliance: \ac {DSGVO} \& Privacy by Design}{5}{section.20}%
-\contentsline {chapter}{\numberline {5}Fazit und Handlungsempfehlung}{6}{chapter.21}%
-\contentsline {section}{\numberline {5.1}Zusammenfassung der Ergebnisse}{6}{section.22}%
-\contentsline {section}{\numberline {5.2}Handlungsempfehlung für die Praxis}{6}{section.23}%
-\contentsline {chapter}{\numberline {6}Zitieren}{7}{chapter.24}%
-\contentsline {section}{\numberline {6.1}Zitate in den Text einfügen}{7}{section.25}%
-\contentsline {subsection}{\numberline {6.1.1}Beispiele}{7}{subsection.26}%
-\contentsline {subsection}{\numberline {6.1.2}Spezialfälle}{9}{subsection.51}%
-\contentsline {section}{\numberline {6.2}Eintragstypen für die Literatur-Datenbank}{9}{section.57}%
-\contentsline {section}{\numberline {6.3}Zitieren von Sekundärliteratur}{10}{section.63}%
-\contentsline {chapter}{\numberline {7}Beispiele für Abbildungen und Tabellen}{14}{chapter.130}%
-\contentsline {section}{\numberline {7.1}Abbildungen}{14}{section.131}%
-\contentsline {section}{\numberline {7.2}Tabellen}{14}{section.138}%
-\contentsline {section}{\numberline {7.3}Etwas Mathematik}{16}{section.142}%
-\contentsline {section}{\numberline {7.4}Source Code}{16}{section.145}%
-\contentsline {chapter}{Anhang}{17}{chapter*.162}%
-\contentsline {chapter}{Literaturverzeichnis}{31}{section*.213}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{III}{chapter*.1}%
+\contentsline {chapter}{Tabellenverzeichnis}{IV}{section*.2}%
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.3}%
+\contentsline {section}{\numberline {1.1}Ausgangslage und Problemstellung}{1}{section.4}%
+\contentsline {section}{\numberline {1.2}Zielsetzung und Aufbau der Arbeit}{1}{section.9}%
+\contentsline {chapter}{\numberline {2}Theoretische Grundlagen und Problemanalyse}{2}{chapter.12}%
+\contentsline {section}{\numberline {2.1}Funktionsweise von \ac {LLM}-\acp {API}}{2}{section.13}%
+\contentsline {section}{\numberline {2.2}Spezifische Risiken in der \ac {IT}-Infrastruktur}{2}{section.16}%
+\contentsline {chapter}{\numberline {3}Technische Implementierung von Data-Masking}{3}{chapter.20}%
+\contentsline {section}{\numberline {3.1}Verfahren der Pseudonymisierung}{3}{section.21}%
+\contentsline {subsection}{\numberline {3.1.1}Reguläre Ausdrücke}{3}{subsection.23}%
+\contentsline {subsection}{\numberline {3.1.2}Named Entity Recognition}{4}{subsection.26}%
+\contentsline {section}{\numberline {3.2}Das Utility-Privacy-Dilemma}{4}{section.31}%
+\contentsline {chapter}{\numberline {4}Kritische Bewertung und Praxisrelevanz}{5}{chapter.34}%
+\contentsline {section}{\numberline {4.1}Governance-Aspekte: Einbindung in die \ac {IT}-Infrastruktur}{5}{section.35}%
+\contentsline {section}{\numberline {4.2}Compliance: \ac {DSGVO} \& Privacy by Design}{5}{section.40}%
+\contentsline {chapter}{\numberline {5}Fazit und Handlungsempfehlung}{6}{chapter.42}%
+\contentsline {section}{\numberline {5.1}Zusammenfassung der Ergebnisse}{6}{section.43}%
+\contentsline {section}{\numberline {5.2}Handlungsempfehlung für die Praxis}{6}{section.47}%
+\contentsline {chapter}{Literaturverzeichnis}{7}{section*.50}%

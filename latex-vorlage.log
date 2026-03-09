@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.23)  9 MAR 2026 13:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.23)  9 MAR 2026 20:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -550,7 +550,7 @@ Class scrreprt Warning: Usage of package `tocloft' together
 (scrreprt)              `part', `section', `subsection',
 (scrreprt)              `subsubsection', `paragraph' and `subparagraph'.
 (scrreprt)              Nevertheless, using requested
-(scrreprt)              package `tocloft' on input line 55.
+(scrreprt)              package `tocloft' on input line 54.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
@@ -819,18 +819,6 @@ Package: setspaceenhanced 2024-11-12 v1.04 improved setspace package
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (./latex-vorlage.aux)
-Runaway argument?
-{5C3337365C3337375C303030565C303030655C303030725C303030665C303030615C\ETC.
-/Volumes/main/programming/repos/assignment-latex/latex-vorlage.tex:17: File ended while scanning use of \BKM@entry.
-<inserted text> 
-                \par 
-l.17 \begin{document}
-                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
 \openout1 = `latex-vorlage.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -854,6 +842,7 @@ LaTeX Font Info:    ... okay on input line 17.
 \c@lstlisting=\count473
 Package tocbasic Info: setting babel extension for `lol' on input line 17.
 \scr@dte@lstlisting@maxnumwidth=\skip135
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -862,14 +851,14 @@ Package tocbasic Info: setting babel extension for `lol' on input line 17.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includefoot 
-* h-part:(L,W,R)=(99.58464pt, 455.24411pt, 42.67912pt)
-* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=455.24411pt
-* \textheight=682.86617pt
-* \oddsidemargin=27.31465pt
-* \evensidemargin=27.31465pt
+* \textheight=668.63979pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
 * \topmargin=-38.53812pt
 * \headheight=17.0pt
 * \headsep=20.40001pt
@@ -954,76 +943,67 @@ Package scrbase Info: activating ngerman \refname on input line 17.
 Package scrbase Info: activating ngerman \figurename on input line 17.
 Package scrbase Info: activating ngerman \tablename on input line 17.
  (./template/_dhbw_deckblatt.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (11.46136pt too wide) in paragraph at lines 61--71
+Overfull \hbox (11.46136pt too wide) in paragraph at lines 64--74
 [][] 
  []
 
-) (./latex-vorlage.toc)
+) (./latex-vorlage.toc
+
+[1
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+Package acronym Info: Label `acro:LLM' newly defined as it shall be overridden
+although it is yet undefined on input line 8.
+Package acronym Info: Label `acro:API' newly defined as it shall be overridden
+although it is yet undefined on input line 8.
+Package acronym Info: Label `acro:IT' newly defined as it shall be overridden
+although it is yet undefined on input line 9.
+Package acronym Info: Label `acro:DSGVO' newly defined as it shall be overridden
+although it is yet undefined on input line 17.
+)
 \tf@toc=\write5
 \openout5 = `latex-vorlage.toc'.
 
 
 
-[1
-
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./includes/abkuerzungen.tex)
-
-[2
-
-
-] (./latex-vorlage.lof)
-\tf@lof=\write6
-\openout6 = `latex-vorlage.lof'.
-
-
+[2] (./includes/abkuerzungen.tex)
 
 [3
 
+
 ] (./latex-vorlage.lot)
-\tf@lot=\write7
-\openout7 = `latex-vorlage.lot'.
+\tf@lot=\write6
+\openout6 = `latex-vorlage.lot'.
 
 
 
 [4
 
-] (./includes/01einleitung.tex
-chapter 1.
+]
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\chapter on input line 58.
+ (./includes/01einleitung.tex
 Package acronym Info: Label `acro:KI' newly defined as it shall be overridden
-although it is yet undefined on input line 4.
-Package acronym Info: Label `acro:IT' newly defined as it shall be overridden
-although it is yet undefined on input line 4.
-Package acronym Info: Label `acro:LLM' newly defined as it shall be overridden
-although it is yet undefined on input line 5.
-Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 7.
+although it is yet undefined on input line 6.
 Package acronym Info: Label `acro:TLS' newly defined as it shall be overridden
-although it is yet undefined on input line 13.
+although it is yet undefined on input line 9.
 Package acronym Info: Label `acro:Regex' newly defined as it shall be overridden
-although it is yet undefined on input line 22.
+although it is yet undefined on input line 16.
 Package acronym Info: Label `acro:NER' newly defined as it shall be overridden
-although it is yet undefined on input line 22.
+although it is yet undefined on input line 16.
 ) (./includes/02grundlagen.tex
-Overfull \hbox (23.02107pt too wide) in paragraph at lines 23--1
+Overfull \hbox (23.02107pt too wide) in paragraph at lines 17--1
 \T1/cmr/m/n/10.95 Um die-ser nach-zu-ge-hen, wer-den zu-nächst die theo-re-ti-schen Grund-la-gen der [][]-[][]-Kommunikation
  []
 
-
-
-[1
-
-
-
-]
-chapter 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ac' on input line 3.
@@ -1037,247 +1017,53 @@ although it is yet undefined on input line 5.
 Package acronym Info: Label `acro:SLA' newly defined as it shall be overridden
 although it is yet undefined on input line 12.
 
+
+[1
+
+
+]
+
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ac' on input line 18.
 
 Package acronym Info: Label `acro:PII' newly defined as it shall be overridden
 although it is yet undefined on input line 20.
-Package acronym Info: Label `acro:DSGVO' newly defined as it shall be overridden
-although it is yet undefined on input line 22.
+Package acronym Info: Label `acro:GeschGehG' newly defined as it shall be overridden
+although it is yet undefined on input line 26.
+Package acronym Info: Label `acro:NIS-2' newly defined as it shall be overridden
+although it is yet undefined on input line 27.
 ) (./includes/03technisch_implementierung.tex
 
-[2
+[2]
 
-]
-chapter 3.
+[3]) (./includes/04praxis.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ac' on input line 3.
 
 
-[3
-
-]) (./includes/04praxis.tex
 
 [4]
-chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 2.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ac' on input line 16.
+(hyperref)                removing `\@ac' on input line 15.
 
 ) (./includes/05fazit.tex
 
-[5
+[5])
 
-]
-chapter 5.
-) (./includes/text_mit_zitaten.tex
-
-[6
-
-]
-chapter 6.
-
-LaTeX Warning: Reference `fn:zitierfaehig' on page 7 undefined on input line 39.
-
-
-LaTeX Warning: Reference `fn:zitierfaehig' on page 7 undefined on input line 39.
+[6]
+Overfull \hbox (12.85985pt too wide) in paragraph at lines 82--82
+\T1/cmr/m/n/10.95 De-ploy-ment: Brea-king Even with Com-mer-ci-al LLM Ser-vices. In: \T1/cmr/m/it/10.95 ar-Xiv pre-print ar-Xiv:2509.18101\T1/cmr/m/n/10.95 .
+ []
 
 
 
 [7
 
-{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-[8]
-
-LaTeX Warning: Reference `sec:sekundaerliteratur' on page 9 undefined on input line 71.
-
-
-LaTeX Warning: Reference `fn:onlineEntryType' on page 9 undefined on input line 75.
-
-
-
-[9]
-
-LaTeX Warning: Reference `tab:eintragstypen' on page 10 undefined on input line 102.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-[]|\T1/cmr/m/n/10.95 publisher, edi-ti-on, edi-tor,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-[]\T1/cmr/m/n/10.95 , se-ries, isbn,
- []
-
-
-Underfull \hbox (badness 3281) in paragraph at lines 112--113
-[]|\T1/cmr/m/n/10.95 bookauthor, edi-tor, vo-lu-me/-num-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-[]|\T1/cmr/m/n/10.95 organization/publisher, ad-dress,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
-[]|\T1/cmr/m/n/10.95 author, tit-le, in-sti-tu-ti-on, ty-pe,
- []
-
-
-LaTeX Warning: Reference `fn:onlineEntryType' on page 10 undefined on input line 124.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
-[]|\T1/cmr/m/n/10.95 author, tit-le, in-sti-tu-ti-on, ty-pe,
- []
-
-
-
-[10] (./includes/literatur-datenbank.bib
-
-[11]
-
-[12])) (./includes/abbildungen_und_tabellen.tex
-
-[13]
-chapter 7.
-
-LaTeX Warning: Reference `abb:Logo2cmHoch' on page 14 undefined on input line 6.
-
-
-LaTeX Warning: Reference `abb:Logo2cmBreit' on page 14 undefined on input line 6.
-
-<graphics/dhbw.png, id=333, 710.655pt x 299.1175pt>
-File: graphics/dhbw.png Graphic file (type png)
-<use graphics/dhbw.png>
-Package pdftex.def Info: graphics/dhbw.png  used on input line 10.
-(pdftex.def)             Requested size: 135.19934pt x 56.9055pt.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2024/09/23 1.10c listings language file
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-)
-File: graphics/dhbw.png Graphic file (type png)
-<use graphics/dhbw.png>
-Package pdftex.def Info: graphics/dhbw.png  used on input line 25.
-(pdftex.def)             Requested size: 56.9055pt x 23.94814pt.
-
-
-LaTeX Warning: Reference `tab:BeispielTabelleKleiner' on page 14 undefined on input line 35.
-
-
-LaTeX Warning: Reference `tab:BeispielTabelleGroesser' on page 14 undefined on input line 35.
-
-
-
-[14
-
- <./graphics/dhbw.png>]
-
-[15] (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-) (./includes/HelloWorld.java)) (./includes/anhang.tex
-
-[16] (./latex-vorlage.app)
-\tf@app=\write8
-\openout8 = `latex-vorlage.app'.
-
-
-
-[17
-
 ]
 
-LaTeX Warning: Reference `anhang:abbildung' on page 18 undefined on input line 15.
-
-
-LaTeX Warning: Reference `anhang:sourcecode' on page 18 undefined on input line 15.
-
-File: graphics/dhbw.png Graphic file (type png)
-<use graphics/dhbw.png>
-Package pdftex.def Info: graphics/dhbw.png  used on input line 20.
-(pdftex.def)             Requested size: 409.71692pt x 172.45676pt.
-(./includes/HelloWorld.java)) (./includes/release_notes.tex
-
-[18
-
-]
-
-[19]
-
-[20]
-Overfull \hbox (5.10364pt too wide) in paragraph at lines 129--130
-[]\T1/cmr/m/n/10.95 Festlegung des The-mas (für eh-ren-wört-li-che Er-klä-rung) mit Be-fehl [][]\T1/cmtt/m/n/10.95 \themaMeinerArbeit 
- []
-
-
-
-[21]
-Overfull \hbox (2.1588pt too wide) in paragraph at lines 149--150
-[]\T1/cmr/m/n/10.95 Vorkehrungen für Ein-deu-tig-keit (Hin-zu-fü-gen ab-ge-kürz-ter oder nö-ti-gen-falls aus-ge-schrie-
- []
-
-
-
-[22]
-
-[23]
-Overfull \hbox (9.20985pt too wide) in paragraph at lines 266--267
-[]\T1/cmr/m/n/10.95 Erläuterung von [][]\T1/cmtt/m/n/10.95 \literaturverzeichnis []\T1/cmr/m/n/10.95 und [][]\T1/cmtt/m/n/10.95 \literaturUndGespraechsverzeichnis 
- []
-
-
-
-[24]
-
-[25]
-
-[26]
-
-[27]
-
-[28]
-Overfull \hbox (3.86964pt too wide) in paragraph at lines 480--481
-[]\T1/cmr/m/n/10.95 In der Vor-ver-si-on wur-de die Op-ti-on [][]\T1/cmtt/m/n/10.95 listof=nochaptergap []\T1/cmr/m/n/10.95 im Be-fehl [] []\T1/cmtt/m/n/10.95 \documentclass
- []
-
-
-
-[29]
-
-LaTeX Warning: Reference `sec:sekundaerliteratur' on page 30 undefined on input line 531.
-
-)
-
-[30]
-
-[31
-
-
-]
-
-[32] (./includes/erklaerung_ki.tex
+[8] (./includes/erklaerung_ki.tex
 Overfull \hbox (1.558pt too wide) in paragraph at lines 132--132
 []\T1/cmr/m/n/10.95 mich ak-tiv über die Leis-tungs-fä-hig-keit und Be-schrän-kun-gen der oben ge-nann-ten KI-Systeme
  []
@@ -1294,51 +1080,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--132
 
 
 
-[33
+[9
 
 
 
-]) (./template/_dhbw_erklaerung.tex
+{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) (./template/_dhbw_erklaerung.tex
 
-[34])
+[10])
 
-[35
+[11
 
 ] (./latex-vorlage.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `latex-vorlage.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'latex-vorlage.run.xml'.
 \openout1 = `latex-vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30344 strings out of 473190
- 592187 string characters out of 5715800
- 1743365 words of memory out of 5000000
- 52858 multiletter control sequences out of 15000+600000
- 588417 words of font info for 104 fonts, out of 8000000 for 9000
+ 28723 strings out of 473190
+ 568703 string characters out of 5715800
+ 1566075 words of memory out of 5000000
+ 51497 multiletter control sequences out of 15000+600000
+ 583050 words of font info for 87 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,18n,127p,10957b,2369s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on latex-vorlage.pdf (39 pages, 654921 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on latex-vorlage.pdf (15 pages, 430876 bytes).
 PDF statistics:
- 869 PDF objects out of 1000 (max. 8388607)
- 755 compressed objects within 8 object streams
- 288 named destinations out of 1000 (max. 500000)
- 270 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 425 PDF objects out of 1000 (max. 8388607)
+ 367 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

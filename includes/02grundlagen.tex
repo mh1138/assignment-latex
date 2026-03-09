@@ -7,22 +7,23 @@ an zentrale Server der \ac{API}-Provider gesendet werden.
 Die Anfragen enthalten dabei den sogenannten Prompt sowie verschiedene Parameter wie Temperatur, Maximalzahl an Tokens, usw.
 Die Verbindung zum \ac{API}-Provider wird typischerweise mit \ac{TLS} verschlüsselt und verhindert somit
 Man-in-the-Middle-Angriffe und das Abhören von Dritten.
-Da jedoch unverschlüsselte Daten für die Verarbeitung der Modelle notwendig sind,
-kann der Zugriff des \ac{API}-Providers auf die Informationen nicht verhindert werden (European Union Agency for Cybersecurity, 2022).
+Da jedoch unverschlüsselter Daten für die Verarbeitung der Modelle notwendig sind,
+kann der Zugriff des \ac{API}-Providers auf die Informationen nicht verhindert werden \footcite{staab2025sokprivacyparadox}.
 Trotz \acp{SLA}s, welche die Sicherheit der Daten garantieren sollen,
 entsteht ein Vertrauensproblem zwischen \ac{API}-Provider und \ac{API}-Konsumierer,
-da die Kontrolle über die Daten bei externen Parteien liegt (Kroll \& Zittrain, 2023). Dies stellt vor allem ein Problem dar,
-wenn die \ac{API}-Provider unter einer anderen regulatorischen oder wettbewerbswirksamen Umgebung als der \ac{API}-Konsumierer stehen.
+da die Kontrolle über die Daten bei externen Parteien liegt \footcite{tantoush2025digitalsovereignty}. Dies stellt vor allem ein Problem dar,
+wenn die \ac{API}-Provider unter einer anderen regulatorischen oder wettbewerbewerbswirksamen Umgebung als der \ac{API}-Konsumierer stehen.
 
 
 \section{Spezifische Risiken in der \ac{IT}-Infrastruktur}
 Um die Bedeutung der Daten zu verstehen, lohnt es sich diese zu kategorisieren.
-Es wird unterschieden zwischen personenbezogenen Daten (\ac{PII}) einerseits und
+Es wird unter-schieden zwischen personenbezogenen Daten (\ac{PII}) einerseits und
 geschäftskritischen Infrastrukturdaten andererseits. Personenbezogene Daten umfassen dabei alle Daten, die eine natürliche Person eindeutig identifizieren können.
 Das können zum Beispiel Namen, E-Mail-Adressen, Telefonnummern, etc. sein. Bei diesen greift die \ac{DSGVO},
-weswegen eine unachtsame Verwendung der Daten zu erheblichen Geldbußen und Reputationsschäden führen kann.
+weswegen eine unachtsame Verwendung der Daten zu erheblichen Geldbußen und Reputationsschäden führen kann \footcite{chen2024understandingpiileakage}.
 Die Kategorie der geschäftskritischen Infrastrukturdaten umfasst hingegen alle Daten, die für die Betriebsführung relevant sind.
 Dazu zählen in diesem Fall unter anderem IP-Adressen und Netzwerksegmentierungen, Servernamen und deren Betriebssystemversionen, etc.
-Im Gegensatz zu personenbezogenen Daten existieren dabei keine regulatorischen Rahmenbedingungen, die die Verwendung der Daten einschränken.
+Im Gegensatz zu personenbezogenen Daten existieren dabei das \ac{GeschGehG}
+oder die \ac{NIS-2}-Richtlinie, welche die Offenlegung dieser Daten einschränken \footcite{europeanparliament2025interplayaact}.
 Das Risiko liegt stattdessen darin, dass die Offenlegung dieser die Sicherheitsinfrastruktur des Unternehmens massiv
-kompromittieren kann (Microsoft Research, 2023).
+kompromittieren kann \footcite{deng2024securitysurveyllm}.
